@@ -102,7 +102,7 @@ header nav #menu:hover .content li a:hover {
 /*-------------- End of body style --------------*/
 /*------------ parallax style ------------*/
 .parallax {
-  background-image: url(../image/img_library.jpg);
+  background-image: url(image/img_library.jpg);
   height: 20vh;
   background-attachment: fixed;
   background-position: center;
