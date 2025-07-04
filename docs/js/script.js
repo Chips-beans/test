@@ -27,7 +27,7 @@ function loadFromHash() {
         window.location.hash = '#home.html';
     }
     
-    const link = document.querySelector(`a[onclick*="${hash}"]`);
+    const link = document.querySelector('a[onclick*="${hash}"]');
     loadPage(hash, link);
 }
 
