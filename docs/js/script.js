@@ -20,9 +20,21 @@ function loadPage(page, link = null) {
         link.classList.add('active')
     }
 }
-window.onload = () => {
-    const homeLink = document.querySelector('a[onclick*="home.html"]');
-    if (homeLink) {
-        loadPage('home.html', homeLink);
+function loadFromHash() {
+    let hash = window.location.hash.substr(1); // Remove the '#' sign
+    if (!hash) {
+        hash = 'home.html'; // default page
+        window.location.hash = '#home.html';
     }
+    
+    const link = document.querySelector(`a[onclick*="${hash}"]`);
+    loadPage(hash, link);
+}
+
+window.onload = () => {
+    loadFromHash();
+};
+
+window.onhashchange = () => {
+    loadFromHash();
 };
