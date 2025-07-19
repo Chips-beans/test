@@ -177,7 +177,7 @@ header nav #menu:hover .content ul li a:hover {
 /*-------------- End of body style --------------*/
 /*------------ parallax style ------------*/
 .parallax {
-  background-image: url(../image/img_library.jpg);
+  background-image: url(image/img_library.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -186,7 +186,7 @@ header nav #menu:hover .content ul li a:hover {
 }
 
 .home_parallax {
-  background-image: url(../image/home_parallax.jpg);
+  background-image: url(image/home_parallax.jpg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -195,7 +195,7 @@ header nav #menu:hover .content ul li a:hover {
 }
 
 .costumer_experience_parallax {
-  background-image: url(../image/chefandcustomer.png);
+  background-image: url(image/chefandcustomer.png);
   height: 70vh;
   margin-top: 40px;
   background-attachment: fixed;
@@ -215,7 +215,7 @@ header nav #menu:hover .content ul li a:hover {
 .rest_image {
   width: 100%;
   height: 100vh;
-  background-image: url(../image/dining\ place.jpg);
+  background-image: url(image/dining\ place.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -406,7 +406,7 @@ footer p {
   margin-top: 60px;
   overflow: hidden;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent),
-    url(/image/menu/label1.jpg);
+    url(image/menu/label1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
